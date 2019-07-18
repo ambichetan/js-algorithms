@@ -1,0 +1,34 @@
+{
+  "name": "js-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha ./eip/**/*.spec.js",
+    "git": "git add . && git commit -m 'more code'",
+    "postgit": "git push --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambichetan/js-algorithms.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Algorithms"
+  ],
+  "author": "chetan.g.ambi@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ambichetan/js-algorithms/issues"
+  },
+  "homepage": "https://github.com/ambichetan/js-algorithms#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5",
+    "sinon": "^4.4.9"
+  },
+  "dependencies": {
+    "currency-formatter": "^1.5.3"
+  }
+}
