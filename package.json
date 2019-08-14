@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "debug": "node --inspect test.js",
+    "debug": "node --inspect-brk test.js",
     "test": "mocha ./eip/**/*.spec.js",
     "git": "git add . && git commit -m 'more code'",
     "postgit": "git push --all"
