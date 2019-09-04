@@ -325,7 +325,7 @@ class BinaryTree {
     return this.countLeavesHelper(root.left) + this.countLeavesHelper(root.right);
   }
   width() {
-    const height = this.height();
+    const height = this.height();  
     const result = new Array(height + 1).join('0').split('');
     this.widthHelper(this.root, height - 1, result);
     return result.sort().reverse()[0];
